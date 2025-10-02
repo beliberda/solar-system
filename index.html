@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Солнечная система 3D</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="controls-info">
+        <h3>Управление:</h3>
+        <p>Левая кнопка мыши - вращение</p>
+        <p>Правая кнопка мыши - перемещение</p>
+        <p>Колесо мыши - приближение/отдаление</p>
+      </div>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
